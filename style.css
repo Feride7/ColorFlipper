@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 100px;
+  padding: 10px;
+  background: linear-gradient(
+    90deg,
+    rgb(238, 255, 0) 10%,
+    rgb(255, 0, 0) 35%,
+    rgb(0, 0, 255) 100%
+  );
+  text-align: center;
+  color: #000;
+  font-size: 80px;
+}
+.container {
+  text-align: center;
+  margin-top: 5%;
+  width: 500px;
+  height: 500px;
+  margin-left: 30%;
+  border: 1px solid black;
+
+  box-shadow: 10px 10px 10px 10px rgb(0, 0, 0, 0.5);
+  border-radius: 20%;
+}
+
+#btn {
+  font-size: 25px;
+  width: 190px;
+  height: 190px;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 0 10px rgb(0, 0, 0, 0.8);
+  padding: 10px;
+  background: linear-gradient(
+    90deg,
+    rgb(238, 255, 0) 10%,
+    rgb(255, 0, 0) 35%,
+    rgb(0, 0, 255) 100%
+  );
+}
+#btn:hover {
+  box-shadow: 10px 10px 10px 10px rgb(0, 0, 0, 0.5);
+  width: 200px;
+  height: 200px;
+}
+#colorName {
+  font-size: 35px;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+  width: 500px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+#color {
+  width: 150px;
+  height: 50px;
+  border-radius: 10%;
+  border: 1 px solid transparent;
+}
+#hex {
+  width: 150px;
+  height: 40px;
+  font-size: 25px;
+}
+#picker {
+  font-size: 25px;
+  border-top: 2px solid rgb(0, 0, 0, 0.5);
+  border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+  width: 500px;
+  height: 70px;
+  margin-top: 30px;
+  text-align: center;
+}
+table {
+  background: linear-gradient(
+    90deg,
+    rgb(238, 255, 0) 10%,
+    rgb(255, 0, 0) 35%,
+    rgb(0, 0, 255) 100%
+  );
+  border-top: none;
+  padding-bottom: 5px;
+  box-shadow: 10px 5px 10px px rgb(0, 0, 0, 0.5);
+
+  margin-bottom: 40px;
+}
